@@ -1,0 +1,124 @@
+
+
+/* ========== ALL ========== */
+body{
+
+    font-family: sans-serif;
+    background-color: rgb(45, 45, 45);
+
+}
+
+/* ========== HOME =========== */
+.home{
+
+    justify-content: center;
+    text-align: center;
+
+}
+
+#homeTitle{
+
+    color: red;
+
+}
+
+#homeText{
+
+    color: aliceblue;
+
+}
+
+/* ========== GAME ========== */
+/* Scoreboard */
+.scoreboard-screen{
+
+    margin: 10px;
+    border: 1px solid aliceblue;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    width: max-content;
+
+    background-color: crimson;
+    color: aliceblue;
+
+}
+
+#scoreboardScreenFirstPlayerStats{
+
+    color: aqua;
+
+}
+
+#scoreboardScreenSecondPlayerStats{
+
+    color: greenyellow;
+
+}
+
+/* Game Screen */
+.game-screen{
+
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+#gameScreenTitle{
+
+    color: red;
+
+}
+
+#gameScreenText{
+
+    font-weight: bold;
+
+}
+
+.images-centered-container{
+
+    /* Center Board */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: initial;
+    text-align: left;
+
+}
+
+.images-container{
+
+    display: flex;
+
+}
+
+.image-container{
+
+    margin: 5px;
+
+}
+
+.image-container-hover:hover{
+
+    background-color: red;
+
+}
+
+#gameResultsFirstPlayer{
+
+    color: aqua;
+
+}
+
+#gameResultsSecondPlayer{
+
+    color: greenyellow;
+
+}
+
+#gameResultsGeneral{
+
+    color: orange;
+
+}

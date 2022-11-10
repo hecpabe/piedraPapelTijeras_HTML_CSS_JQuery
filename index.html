@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra | Papel | Tijeras
+    </title>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
+
+</head>
+<body>
+    
+    <!-- =========== HOME ========== -->
+    <div class="home">
+
+        <!-- Title -->
+        <h1 id="homeTitle">Bienvenido a Piedra | Papel | Tijeras</h1>
+        <p id="homeText">Seleccione el número de jugadores y pulse continuar.</p>
+
+        <!-- Combobox -->
+        <select name="playersNumber" id="playersNumberSelect">
+            <option value="0" selected>0 Jugadores</option>
+            <option value="1">1 Jugador</option>
+            <option value="2">2 Jugadores</option>
+        </select>
+
+        <!-- Button -->
+        <button id="homeButton">Continuar</button>
+
+    </div>
+
+    <!-- ========== GAME ========== -->
+    <div class="game">
+
+        <!-- Scoreboard screen -->
+        <div class="scoreboard-screen">
+
+            <h1 id="scoreboardScreenTitle">Número de Victorias</h1>
+            <p id="scoreboardScreenFirstPlayerStats"></p>
+            <p id="scoreboardScreenSecondPlayerStats"></p>
+
+        </div>
+
+        <!-- Game Screen -->
+        <div class="game-screen">
+
+            <!-- Title -->
+            <h1 id="gameScreenTitle"></h1>
+            <p id="gameScreenText"></p>
+
+            <!-- Images -->
+            <div class="images-centered-container">
+
+                <div class="images-container">
+
+                    <div id="rockImageContainer" value="Rock" class="image-container image-container-hover">
+                        <img src="images/rock.png" value="Rock" alt="ROCK" id="rockImage" width="300px" height="300px">
+                    </div>
+    
+                    <div id="paperImageContainer" value="Paper" class="image-container image-container-hover">
+                        <img src="images/paper.png" value="Paper" alt="PAPER" id="paperImage" width="300px" height="300px">
+                    </div>
+    
+                    <div id="scissorsImageContainer" value="Scissors" class="image-container image-container-hover">
+                        <img src="images/scissors.png" value="Scissors" alt="SCISSORS" id="scissorsImage" width="300px" height="300px">
+                    </div>
+    
+                </div>
+
+            </div>
+            <!-- Game Results -->
+            <div class="game-results">
+
+                <p id="gameResultsFirstPlayer"></p>
+                <p id="gameResultsSecondPlayer"></p>
+                <p id="gameResultsGeneral"></p>
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="game-buttons">
+
+                <button id="nextGameButton">Volver a Jugar</button>
+                <button id="restartGameButton">Reiniciar</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
